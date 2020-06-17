@@ -10,7 +10,7 @@ const Collection = ({ match }) => {
   return (
     <div className='collection'>
       {
-        <PreviewCollection type={ "full" } key={ list.id } title={ list.title } items={ list.items } />
+        <PreviewCollection idx={ 8 } type={ "full" } key={ list.id } title={ list.title } items={ list.items } />
       }
     </div>
   )
